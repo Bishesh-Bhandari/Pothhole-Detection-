@@ -1,0 +1,12 @@
+@'
+.venv/
+venv/
+__pycache__/
+*.pyc
+datasets/
+runs/
+*.pt
+*.mp4
+db.sqlite3
+.env
+'@ | Set-Content -Path .gitignore -Encoding UTF8
