@@ -1,6 +1,3 @@
-
-@'
-
 # SadakYatri - Claude Code Instructions
 
 ## Project
@@ -55,4 +52,3 @@ Never propose a config needing more VRAM without flagging the cost.
 - Train:    yolo detect train data=data.yaml model=yolo11s.pt imgsz=640 batch=8 epochs=100
 - Validate: yolo detect val model=runs/detect/train/weights/best.pt
 - Backend:  python manage.py runserver
-  '@ | Set-Content -Path CLAUDE.md -Encoding UTF8
